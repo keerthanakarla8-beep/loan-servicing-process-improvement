@@ -1,0 +1,21 @@
+Requirement ID,Requirement,User Story,Test Case,UAT Status,Coverage
+BR-001,Automate customer identity verification using KYC API integration.,US-001,TC-001,Pass,Covered
+BR-002,Validate customer address against approved proof of address documents.,US-002,TC-002,Pass,Covered
+BR-003,"Detect duplicate customer applications using Customer ID, email, phone, DOB and postcode.",US-003,TC-003,Pass,Covered
+BR-004,"Calculate affordability using verified income, monthly commitments and loan amount.",US-004,TC-004,Pass,Covered
+BR-005,Route high-risk applications to manual underwriting review.,US-005,TC-005,Pass,Covered
+BR-006,Generate automated repayment schedule after loan approval.,US-006,TC-006,Pass,Covered
+BR-007,Create loan account record without duplicate data entry.,US-007,TC-007,Failed,Covered
+BR-008,Import daily payment files from payment provider.,US-008,TC-008,Pass,Covered
+BR-009,Reconcile received payments against expected instalment schedule.,US-009,TC-009,Pass,Covered
+BR-010,"Flag short payment, missed payment, duplicate payment and overpayment exceptions.",US-010,TC-010,Pass,Covered
+BR-011,Provide an operations queue for all servicing exceptions with SLA priority.,US-001,TC-011,Pass,Covered
+BR-012,Assign exception ownership based on category and priority.,US-002,TC-012,Pass,Covered
+BR-013,Produce daily investor reporting dataset by portfolio.,US-003,TC-013,Failed,Covered
+BR-014,Refresh Power BI dashboard daily using approved CSV or database extracts.,US-004,TC-014,Pass,Covered
+BR-015,"Provide approval turnaround time, verification success rate and reconciliation accuracy KPIs.",US-005,TC-015,Pass,Covered
+BR-016,"Capture audit trail for customer, loan, payment and exception changes.",US-006,TC-016,Pass,Covered
+BR-017,Restrict sensitive customer data using role-based access control.,US-007,TC-017,Pass,Covered
+BR-018,Generate UAT evidence for each critical business requirement.,US-008,TC-018,Failed,Covered
+BR-019,Block loan setup when mandatory KYC or affordability checks fail.,US-009,TC-019,Pass,Covered
+BR-020,"Create data quality checks for missing customer IDs, invalid dates and payment mismatches.",US-010,TC-020,Pass,Covered

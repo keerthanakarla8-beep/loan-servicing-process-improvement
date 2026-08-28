@@ -1,0 +1,21 @@
+Test Case ID,Scenario,Expected Result,Status,Owner
+TC-001,Create new application,System returns expected result and audit trail is captured,Pass,QA / Business
+TC-002,Run KYC verification,System returns expected result and audit trail is captured,Pass,QA / Business
+TC-003,Fail invalid KYC document,System returns expected result and audit trail is captured,Failed,QA / Business
+TC-004,Detect duplicate customer,System returns expected result and audit trail is captured,Pass,QA / Business
+TC-005,Calculate affordability pass,System returns expected result and audit trail is captured,Pass,QA / Business
+TC-006,Route high risk to manual underwriting,System returns expected result and audit trail is captured,Pass,QA / Business
+TC-007,Approve loan,System returns expected result and audit trail is captured,Pass,QA / Business
+TC-008,Create repayment schedule,System returns expected result and audit trail is captured,Pass,QA / Business
+TC-009,Import payment file,System returns expected result and audit trail is captured,Pass,QA / Business
+TC-010,Match exact payment,System returns expected result and audit trail is captured,Pass,QA / Business
+TC-011,Flag short payment,System returns expected result and audit trail is captured,Failed,QA / Business
+TC-012,Flag missed payment,System returns expected result and audit trail is captured,Pass,QA / Business
+TC-013,Create exception case,System returns expected result and audit trail is captured,Pass,QA / Business
+TC-014,Assign exception owner,System returns expected result and audit trail is captured,Pass,QA / Business
+TC-015,Generate investor extract,System returns expected result and audit trail is captured,Failed,QA / Business
+TC-016,Refresh dashboard,System returns expected result and audit trail is captured,Pass,QA / Business
+TC-017,Validate role-based access,System returns expected result and audit trail is captured,Pass,QA / Business
+TC-018,Audit customer change,System returns expected result and audit trail is captured,Pass,QA / Business
+TC-019,Resolve defect and retest,System returns expected result and audit trail is captured,Pass,QA / Business
+TC-020,Export UAT evidence,System returns expected result and audit trail is captured,Pass,QA / Business

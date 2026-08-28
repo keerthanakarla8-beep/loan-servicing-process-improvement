@@ -1,0 +1,12 @@
+digraph G { graph [rankdir=LR, bgcolor="white", pad="0.3", nodesep="0.45", ranksep="0.7"]; node [shape=box, style="rounded,filled", fontname="Arial", fontsize=11, fillcolor="#EEF2FF", color="#17365D"]; edge [color="#374151", arrowsize=0.8];
+A[label="Application
+Intake"]; B[label="Manual
+Verification"]; C[label="Underwriting
+Review"]; D[label="Approval
+Decision"]; E[label="Manual Loan
+Setup"]; F[label="Payment
+Processing"]; G[label="Servicing
+Exceptions"]; H[label="Investor
+Reporting"];
+P1[label="Problem: duplicate data entry", fillcolor="#FEE2E2", color="#B91C1C"]; P2[label="Problem: reporting delay", fillcolor="#FEE2E2", color="#B91C1C"]; P3[label="Problem: reconciliation discrepancy", fillcolor="#FEE2E2", color="#B91C1C"];
+A->B->C->D->E->F->G->H; B->P1; F->P3; H->P2; }

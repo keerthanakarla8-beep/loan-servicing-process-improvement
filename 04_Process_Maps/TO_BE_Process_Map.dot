@@ -1,0 +1,11 @@
+digraph G { graph [rankdir=LR, bgcolor="white", pad="0.3", nodesep="0.45", ranksep="0.7"]; node [shape=box, style="rounded,filled", fontname="Arial", fontsize=11, fillcolor="#ECFDF5", color="#15803D"]; edge [color="#374151", arrowsize=0.8];
+A[label="Digital
+Application"]; B[label="KYC API +
+Duplicate Check"]; C[label="Affordability +
+Risk Rules"]; D[label="Auto Approval /
+Manual Review"]; E[label="Automated Loan
+Setup"]; F[label="Daily Payment
+Reconciliation"]; G[label="Exception Queue
+with SLA"]; H[label="Daily Investor
+Reporting + Power BI"];
+A->B->C->D->E->F->G->H; B->D[label="pass"]; C->G[label="refer/fail"]; F->G[label="mismatch"]; }

@@ -1,0 +1,11 @@
+Epic,Story ID,User Story,Linked Requirement,Priority
+EPIC-01 KYC Automation,US-001,"As a Loan Officer, I want customer identity verified automatically so that application checks are completed faster.",BR-001,High
+EPIC-01 KYC Automation,US-002,"As a Compliance Officer, I want failed KYC cases routed to manual review so that regulatory exceptions are handled safely.","BR-002, BR-022",High
+EPIC-02 Underwriting,US-003,"As a Credit Analyst, I want affordability calculated using verified income and commitments so that decisions are consistent.",BR-004,High
+EPIC-02 Underwriting,US-004,"As an Underwriter, I want high-risk applications sent to manual review so that risk controls are maintained.",BR-005,High
+EPIC-03 Loan Setup,US-005,"As an Operations Analyst, I want approved loans created automatically so that duplicate data entry is removed.","BR-006, BR-007",High
+EPIC-04 Payments,US-006,"As a Finance Analyst, I want daily payment files imported so that collections data is available on time.",BR-008,High
+EPIC-04 Payments,US-007,"As a Finance Analyst, I want mismatched payments flagged daily so that reconciliation discrepancies reduce.","BR-009, BR-010",High
+EPIC-05 Exception Handling,US-008,"As an Operations Manager, I want exceptions assigned by category and SLA so that ownership is clear.","BR-011, BR-012",Medium
+EPIC-06 Investor Reporting,US-009,"As an Investor Reporting Manager, I want a daily portfolio dataset so that investor reports are not delayed.",BR-013,High
+EPIC-06 Investor Reporting,US-010,"As a Leadership user, I want Power BI KPIs refreshed daily so that decision-making is based on current data.","BR-014, BR-015",Medium

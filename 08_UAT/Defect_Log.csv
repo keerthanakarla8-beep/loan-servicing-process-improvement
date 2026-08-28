@@ -1,0 +1,6 @@
+Defect ID,Description,Severity,Status,Owner,Retest Result
+DF-001,Duplicate customer accepted,Critical,Resolved,Loan Ops,Retest Passed
+DF-002,KYC timeout not routed to manual review,High,Open,Compliance,Pending Fix
+DF-003,Short payment variance formula incorrect,High,Resolved,Finance Ops,Retest Passed
+DF-004,Investor report excludes adjusted payment,Medium,Open,BI Team,In Development
+DF-005,Dashboard date filter default incorrect,Low,Closed,BI Team,Retest Passed

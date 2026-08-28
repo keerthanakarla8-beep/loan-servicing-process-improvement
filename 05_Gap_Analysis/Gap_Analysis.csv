@@ -1,0 +1,7 @@
+Area,AS-IS,TO-BE,Gap,Priority,Benefit
+Verification,Manual document review,KYC API + exception review,Automation and rule design,High,Shorter approval time
+Data Entry,Rekeying across tools,Single customer/loan record passed downstream,Integration and master data,High,Fewer errors
+Reconciliation,Spreadsheet matching monthly,Daily matching rules,SQL matching logic,High,Higher accuracy
+Reporting,Manual monthly investor extract,Daily Power BI refresh,Dataset and DAX measures,Medium,Timely insights
+Exceptions,Email-based ownership,Workflow queue with SLA,Case management process,High,Clear accountability
+UAT,Disconnected test evidence,RTM-linked UAT cases and defects,Traceability discipline,Medium,Better release quality

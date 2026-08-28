@@ -1,0 +1,7 @@
+digraph G { graph [rankdir=TB, bgcolor="white", pad="0.2", nodesep="0.3", ranksep="0.45"]; node [shape=box, style="rounded,filled", fontname="Arial", fontsize=10, fillcolor="#F8FAFC", color="#17365D"]; edge [color="#64748B", arrowsize=0.7];
+subgraph cluster_customer { label="Customer"; color="#CBD5E1"; c1[label="Submit application"]; c2[label="Upload documents"]; }
+subgraph cluster_ops { label="Loan Operations"; color="#CBD5E1"; o1[label="Validate application"]; o2[label="Loan setup"]; o3[label="Manage servicing exception"]; }
+subgraph cluster_credit { label="Credit / Risk"; color="#CBD5E1"; r1[label="Affordability rules"]; r2[label="Manual underwriting if required"]; }
+subgraph cluster_finance { label="Finance Operations"; color="#CBD5E1"; f1[label="Payment import"]; f2[label="Daily reconciliation"]; }
+subgraph cluster_reporting { label="BI / Investor Reporting"; color="#CBD5E1"; b1[label="Prepare reporting dataset"]; b2[label="Power BI dashboard refresh"]; }
+c1->c2->o1->r1->r2->o2->f1->f2->o3->b1->b2; }

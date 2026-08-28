@@ -1,0 +1,5 @@
+flowchart LR
+Application --> Verification --> Underwriting --> Approval --> LoanSetup --> Payments --> Servicing --> InvestorReporting
+Verification -. manual verification .-> Issue1[Delay]
+Payments -. spreadsheet reconciliation .-> Issue2[Discrepancy]
+InvestorReporting -. monthly extract .-> Issue3[Reporting delay]
